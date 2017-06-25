@@ -1,0 +1,28 @@
+{
+  "configuration" : {
+    "caffe_root" : "/thesis/git/modified_nns/PSPNet-master" ,
+    "model_prototxt" : "/thesis/works/test_image_intelligence/resnet/ResNet-101-deploy.prototxt" ,
+    "model_weights" : "/thesis/works/test_image_intelligence/resnet/ResNet-101-model.caffemodel" ,
+    "output_layer_name" : "prob",
+    "model_mean" : "/thesis/works/test_image_intelligence/resnet/ResNet_mean.binaryproto",
+    "tmp_dir" : "/thesis/works/test_image_intelligence/tmp/",
+    "use_gpu" : true ,
+    "batch_max" : 8 ,
+    "img_width" : 224,
+    "img_height" : 224 ,
+    "class_names": "/thesis/works/test_image_intelligence/resnet/imagenet1000_clsid_to_human.json"
+  },
+  "config_params_desc": {
+    "caffe_root": "The address of caffe",
+    "model_prototxt": "network architecture definition, Basically Resnet101",
+    "model_weights" : "network weights",
+    "output_layer_name" : "the name of the network output",
+    "model_mean" : "mean values for input (binaryproto file)",
+    "tmp_dir" : "the directory that the images are copied into temporarily and are deleted after the respond is successfully sent" ,
+    "use_gpu" : "if true, use GPU for caffe, otherwise use CPU" ,
+    "batch_max" : "the maximum number of images that can be computed simultaneously. Note that this is the limitation of the GPU memory,if the number of input images is more than this number, more than one forward of the network is necessary",
+    "img_width" : "the network's input image width",
+    "img_height" : "the network's input image height",
+    "class_names" : "json file with class names in format {'classes': ['class0' , 1:'class1' , ...]}"
+  }
+}

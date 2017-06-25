@@ -1,0 +1,15 @@
+{
+  "images": [
+    "http://localhost:8080/static/imgs/now.jpg",
+    "http://localhost:8080/static/imgs/lion.jpg",
+    "http://localhost:8080/static/imgs/shahin_lama.jpg",
+    "http://localhost:8080/static/imgs/setia_my_niece.jpg",
+    "http://localhost:8080/static/imgs/my_pet.jpg",
+    "http://localhost:8080/static/imgs/my_nieces_cat.jpg",
+    "http://localhost:8080/static/imgs/icip_img.jpg",
+    "http://localhost:8080/static/imgs/persian_breakfast.jpg",
+    "http://localhost:8080/static/imgs/mexico.jpg",
+    "http://localhost:8080/static/imgs/basketball.jpg"
+    
+  ]
+}
